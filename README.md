@@ -11,7 +11,7 @@ The project demonstrates a full ML workflow: data loading, model training, evalu
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/iris-classifier.git
+git clone https://github.com/izad-py/iris-classifier.git
 cd iris-classifier
 
 # Create and activate virtual environment
