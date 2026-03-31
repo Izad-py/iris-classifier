@@ -1,5 +1,6 @@
 import argparse
 import os
+import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.datasets import load_iris
@@ -22,6 +23,7 @@ def main(test_size, random_state):
     # Train model
     model = DecisionTreeClassifier(random_state=random_state)
     model.fit(X_train, y_train)
+    joblib.dump(model, "outputs/model.joblib")
 
     # Predict
     y_pred = model.predict(X_test)
