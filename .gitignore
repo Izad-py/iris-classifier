@@ -1,5 +1,7 @@
 venv/
 __pycache__/
-outputs/
+outputs/*
+!outputs/model.joblib
+!outputs/confusion_matrix.png
 .ipynb_checkpoints/
 
